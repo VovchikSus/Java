@@ -3,8 +3,10 @@
 public class Main {
 
     public static void main(String[] args) {
-        ColorText.RED.ColorSwitch("Красный",ColorText.RED);
-        ColorText.GREEN.ColorSwitch("Зеленый",ColorText.GREEN);
+        ColorText.RED.ColoredTexting("Красный");
+        ColorText.GREEN.ColoredTexting("Зеленый");
+        ColorText.CYAN.ColoredTexting("Циан");
+        ColorText.BLUE.ColoredTexting("Голубой");
     }
 
 
